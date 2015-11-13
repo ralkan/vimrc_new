@@ -14,7 +14,7 @@ You can run `git pull` inside of `~/.vim` if you'd ever like to grab the latest 
 
 ```bash
 cd ~
-git clone git://github.com/tlhunter/vimrc.git .vim
+git clone git://github.com/ralkan/vimrc_new.git .vim
 ln -s ~/.vim/vimrc ~/.vimrc # Optional, needed for some VIM installations
 ```
 
@@ -23,7 +23,7 @@ ln -s ~/.vim/vimrc ~/.vimrc # Optional, needed for some VIM installations
 This method might be more sane. Simply downlaod the latest version, extract to `~/.vim`, and configure to your liking.
 
 ```bash
-wget https://github.com/tlhunter/vimrc/archive/master.zip
+wget https://github.com/ralkan/vimrc_new/archive/master.zip
 ```
 
 ## Features
@@ -94,3 +94,4 @@ Other than the myriad of built-in methods for navigating text...
 
 * Use `<Leader>c` to copy the highlighted text into the OS clipboard
 * Use `<Leader>v` to paste the OS clipboard into the document
+
