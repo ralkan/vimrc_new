@@ -1,5 +1,5 @@
 call pathogen#infect()
-let mapleader = "\<Space>"
+let mapleader = ","
 set nocompatible
 set viminfo='1000,f1,:1000,/1000
 set history=1000
@@ -15,10 +15,11 @@ set ruler
 set statusline=%<%f\ %h%m%r%=%{fugitive#statusline()}\ \ %-14.(%l,%c%V%)\ %P
 let g:buftabs_only_basename=1
 let g:buftabs_marker_modified = "+"
-set colorcolumn=120
 
 " Toggle whitespace visibility with ,s
-nmap <Leader>s :set list!<CR>
+" nmap <Leader>s :set list!<CR>
+nmap s <plug>(easymotion-prefix)
+nmap <Leader>z :set paste!<CR>
 set listchars=tab:▸\ ,trail:·,extends:❯,precedes:❮,nbsp:×
 :set list " Enable by default
 
