@@ -21,7 +21,7 @@ let g:buftabs_marker_modified = "+"
 nmap s <plug>(easymotion-prefix)
 nmap <Leader>z :set paste!<CR>
 set listchars=tab:▸\ ,trail:·,extends:❯,precedes:❮,nbsp:×
-:set list " Enable by default
+" :set list " Enable by default
 
 " <Leader>L = Toggle line numbers
 map <Leader>L :set invnumber<CR>
