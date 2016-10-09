@@ -36,10 +36,6 @@ wget https://github.com/ralkan/vimrc_new/archive/master.zip
 * Additional features when running under MacVIM
 * Quickly navigate to files using a fuzzy finder
 
-### Leader Key
-
-As of `v0.2.0`, the Leader key is now bound to `Space` (used to be `Comma`)
-
 ### Switching between files (Buffers)
 
 * Use `<Leader>q` to close the current file (a different file will appear in its place)

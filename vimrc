@@ -20,6 +20,8 @@ let g:buftabs_marker_modified = "+"
 " nmap <Leader>s :set list!<CR>
 nmap s <plug>(easymotion-prefix)
 nmap <Leader>z :set paste!<CR>
+scriptencoding utf-8
+set encoding=utf-8
 set listchars=tab:▸\ ,trail:·,extends:❯,precedes:❮,nbsp:×
 " :set list " Enable by default
 
