@@ -3,6 +3,7 @@ let mapleader = ","
 set nocompatible
 set viminfo='1000,f1,:1000,/1000
 set history=1000
+set noswapfile
 
 let pair_program_mode = 0
 
