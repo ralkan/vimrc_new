@@ -350,7 +350,7 @@ if has("gui_running")
 else
 	set t_Co=256
 	colorscheme busierbee
-	# colorscheme Mustang
+	" colorscheme Mustang
 	set mouse=a
 endif
 
