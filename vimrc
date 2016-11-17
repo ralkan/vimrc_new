@@ -17,6 +17,8 @@ set statusline=%<%f\ %h%m%r%=%{fugitive#statusline()}\ \ %-14.(%l,%c%V%)\ %P
 let g:buftabs_only_basename=1
 let g:buftabs_marker_modified = "+"
 
+set clipboard=unnamed
+
 " Toggle whitespace visibility with ,s
 " nmap <Leader>s :set list!<CR>
 nmap s <plug>(easymotion-prefix)
@@ -351,6 +353,15 @@ else
 	set t_Co=256
 	colorscheme busierbee
 	" colorscheme Mustang
+	
+	set cursorline
+	hi CursorLine term=bold cterm=bold guibg=Grey40 ctermbg=233
+	if exists('+colorcolumn')
+		au BufRead,BufNewFile *.py,*pyw set colorcolumn=80
+	else
+		au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+	endif
+
 	set mouse=a
 endif
 
