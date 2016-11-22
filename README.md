@@ -16,6 +16,9 @@ You can run `git pull` inside of `~/.vim` if you'd ever like to grab the latest 
 cd ~
 git clone git://github.com/ralkan/vimrc_new.git .vim
 ln -s ~/.vim/vimrc ~/.vimrc # Optional, needed for some VIM installations
+
+# For Mac OS X
+brew install the_silver_searcher
 ```
 
 ### One Time Download
